@@ -1,9 +1,42 @@
+@font-face {
+  font-family: Shabnam;
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot');
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff2') format('woff2'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff') format('woff'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.eot');
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.woff2') format('woff2'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.woff') format('woff'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.eot');
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.woff2') format('woff2'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.woff') format('woff'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
 
 body {
-
+    font-family: Shabnam;
 	color: white;
-    background-color: #000272;
+    background-color: #000139;
     margin: 0px
+}
+
+.right {
+    text-align: right;
 }
 
 .center-container {
@@ -52,14 +85,45 @@ body {
     }
 
 .color1 {
-	color: #000272;
+    color: #000272;
 }
 .color2 {
-	color: #341677;
+    color: #341677;
 }
 .color3 {
-	color: #a32f80;
+    color: #a32f80;
 }
 .color4 {
-	color: #ff6363;
+    color: #ff6363;
+}
+
+.bcolor1 {
+    background-color: #000272;
+    color: #ddd;
+}
+.bcolor2 {
+    background-color: #341677;
+    color: #ddd;
+}
+.bcolor3 {
+    background-color: #a32f80;
+    color: #ddd;
+}
+.bcolor4 {
+    background-color: #ff6363;
+    color: #ddd;
+}
+
+.profile-border {
+    border: 1px solid #a32f80;
+}
+.profile-border:hover {
+    border: 3px solid #a32f80;
+}
+
+.border-bottem {
+    border-bottom: 1px solid #ff6363;
+}
+.border-top {
+    border-top: 1px solid #ff6363;
 }
